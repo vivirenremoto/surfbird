@@ -38,10 +38,19 @@
 <body>
 
     <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+
         body {
             touch-action: pan-x pan-y;
-            background: url('static/bg.gif');
+            background: #547F5C url('static/bg.gif');
             background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
 
 
@@ -200,12 +209,6 @@
 
         @media screen and (max-width: 480px) {
 
-
-            html,
-            body {
-                width: 100%;
-                height: 100%;
-            }
 
             body {
                 background-size: auto 100%;
